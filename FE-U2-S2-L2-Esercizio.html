@@ -101,15 +101,10 @@ EXTRAS
 17) Crea una funzione che rimuova tutte le "card" dalla pagina
 
 -->
+    <!-- head -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <img
-            src="https://i.pinimg.com/564x/5e/b0/55/5eb055cfbf75dcd167d5d8e42d2ed177.jpg"
-            alt="Bootstrap"
-            width="50"
-            height="44"
-        /></a>
+        <a class="navbar-brand" href="#"> <img src="./assets/imgs/5eb055cfbf75dcd167d5d8e42d2ed177.jpg" alt="Bootstrap" width="50" height="44" /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -137,28 +132,78 @@ EXTRAS
             </li>
           </ul>
           <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Cerca posi da sogno" aria-label="Search" />
-            <button class="btn btn-outline-success" type="submit">Cerca</button>
+            <input class="form-control me-2" type="search" placeholder="Cerca posti da sogno" aria-label="Search" />
+            <button class="btn btn-outline-danger" type="submit">Cerca</button>
           </form>
         </div>
       </div>
     </nav>
-    <div class="container my-4">
-      <div class="row border-bottom border-light-subtle bg-light pt-4 ps-3">
-        <div class="col-2">
+    <!-- titolo pagina -->
+    <div class="container my-4 border rounded">
+      <div class="row border-bottom border-light-subtle bg-light pt-4 ps-3 d-flex justify-content-lg-center">
+        <div class="col-6 col-lg-3 col-xl-2 text-end">
           <h1 class="fs-1 fw-light">Eveline-R</h1>
         </div>
-        <div class="col-5 text-start d-flex align-items-center">
+        <div class="col-5 col-lg col-xl text-start d-flex align-items-center">
           <h5 class="fw-lighter">-Feel the Freedom</h5>
         </div>
       </div>
-      <div class="row pb-4 ps-3 bg-light">
+      <div class="row pt-4 ps-3 bg-light text-center text-lg-start">
         <div class="col">
           <h3 class="fs-5 fw-light fst-italic">Scopri le destinazioni più calde del momento!</h3>
         </div>
-        <div class="row pt-4 ps-3 bg-light">
-          <div class="col">
-            <button type="button" class="btn btn-info text-white">Prenota ora</button>
+      </div>
+
+      <div class="row pt-4 pb-4 ps-3 bg-light">
+        <div class="col-2 col-lg-2 d-grid gap-2 col-6 mx-auto me-lg-auto">
+          <button type="button" class="btn btn-info text-white">Prenota ora</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="d-flex justify-content-between">
+        <h3>Saldi</h3>
+        <button type="button" class="btn btn-link">Nascondi sezione</button>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+          <div class="card border border-info border-2">
+            <img src="./assets/imgs/sean-oulashin-KMn4VEeEPR8-unsplash.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Cattolica</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem est quo sint illo in at!</p>
+              <a href="#" class="btn btn-info">Prenota!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+          <div class="card border border-info border-2">
+            <img src="./assets/imgs/sean-oulashin-KMn4VEeEPR8-unsplash.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Riccione</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem est quo sint illo in at!</p>
+              <a href="#" class="btn btn-info">Prenota!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
+          <div class="card border border-info border-2">
+            <img src="./assets/imgs/sean-oulashin-KMn4VEeEPR8-unsplash.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Rimini</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem est quo sint illo in at!</p>
+              <a href="#" class="btn btn-info">Prenota!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3 d-md-none d-xl-block">
+          <div class="card border border-info border-2">
+            <img src="./assets/imgs/sean-oulashin-KMn4VEeEPR8-unsplash.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Milano Marittima</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem est quo sint illo in at!</p>
+              <a href="#" class="btn btn-info">Prenota!</a>
+            </div>
           </div>
         </div>
       </div>
